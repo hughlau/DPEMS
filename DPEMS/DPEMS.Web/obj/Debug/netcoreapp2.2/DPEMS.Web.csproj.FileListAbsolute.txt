@@ -1,0 +1,17 @@
+F:\Git\DPEMS\DPEMS\DPEMS.Web\bin\Debug\netcoreapp2.2\DPEMS.Web.deps.json
+F:\Git\DPEMS\DPEMS\DPEMS.Web\bin\Debug\netcoreapp2.2\DPEMS.Web.runtimeconfig.json
+F:\Git\DPEMS\DPEMS\DPEMS.Web\bin\Debug\netcoreapp2.2\DPEMS.Web.runtimeconfig.dev.json
+F:\Git\DPEMS\DPEMS\DPEMS.Web\bin\Debug\netcoreapp2.2\DPEMS.Web.dll
+F:\Git\DPEMS\DPEMS\DPEMS.Web\obj\Debug\netcoreapp2.2\DPEMS.Web.csprojAssemblyReference.cache
+F:\Git\DPEMS\DPEMS\DPEMS.Web\obj\Debug\netcoreapp2.2\DPEMS.Web.csproj.CoreCompileInputs.cache
+F:\Git\DPEMS\DPEMS\DPEMS.Web\obj\Debug\netcoreapp2.2\DPEMS.Web.RazorAssemblyInfo.cache
+F:\Git\DPEMS\DPEMS\DPEMS.Web\obj\Debug\netcoreapp2.2\DPEMS.Web.RazorAssemblyInfo.cs
+F:\Git\DPEMS\DPEMS\DPEMS.Web\obj\Debug\netcoreapp2.2\DPEMS.Web.AssemblyInfoInputs.cache
+F:\Git\DPEMS\DPEMS\DPEMS.Web\obj\Debug\netcoreapp2.2\DPEMS.Web.AssemblyInfo.cs
+F:\Git\DPEMS\DPEMS\DPEMS.Web\obj\Debug\netcoreapp2.2\DPEMS.Web.RazorTargetAssemblyInfo.cache
+F:\Git\DPEMS\DPEMS\DPEMS.Web\bin\Debug\netcoreapp2.2\DPEMS.Web.pdb
+F:\Git\DPEMS\DPEMS\DPEMS.Web\obj\Debug\netcoreapp2.2\DPEMS.Web.dll
+F:\Git\DPEMS\DPEMS\DPEMS.Web\obj\Debug\netcoreapp2.2\DPEMS.Web.pdb
+F:\Git\DPEMS\DPEMS\DPEMS.Web\bin\Debug\netcoreapp2.2\DEPMS.Themes.dll
+F:\Git\DPEMS\DPEMS\DPEMS.Web\bin\Debug\netcoreapp2.2\DEPMS.Themes.pdb
+F:\Git\DPEMS\DPEMS\DPEMS.Web\obj\Debug\netcoreapp2.2\DPEMS.Web.csproj.CopyComplete
