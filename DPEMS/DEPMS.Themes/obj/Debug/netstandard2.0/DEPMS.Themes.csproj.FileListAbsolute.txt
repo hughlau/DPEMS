@@ -1,9 +1,0 @@
-F:\Git\DPEMS\DPEMS\DEPMS.Themes\bin\Debug\netstandard2.0\DEPMS.Themes.deps.json
-F:\Git\DPEMS\DPEMS\DEPMS.Themes\bin\Debug\netstandard2.0\DEPMS.Themes.dll
-F:\Git\DPEMS\DPEMS\DEPMS.Themes\obj\Debug\netstandard2.0\DEPMS.Themes.csprojAssemblyReference.cache
-F:\Git\DPEMS\DPEMS\DEPMS.Themes\obj\Debug\netstandard2.0\DEPMS.Themes.csproj.CoreCompileInputs.cache
-F:\Git\DPEMS\DPEMS\DEPMS.Themes\obj\Debug\netstandard2.0\DEPMS.Themes.AssemblyInfoInputs.cache
-F:\Git\DPEMS\DPEMS\DEPMS.Themes\obj\Debug\netstandard2.0\DEPMS.Themes.AssemblyInfo.cs
-F:\Git\DPEMS\DPEMS\DEPMS.Themes\bin\Debug\netstandard2.0\DEPMS.Themes.pdb
-F:\Git\DPEMS\DPEMS\DEPMS.Themes\obj\Debug\netstandard2.0\DEPMS.Themes.dll
-F:\Git\DPEMS\DPEMS\DEPMS.Themes\obj\Debug\netstandard2.0\DEPMS.Themes.pdb
