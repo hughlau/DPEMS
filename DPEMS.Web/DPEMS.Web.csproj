@@ -12,7 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DEPMS.Themes\DEPMS.Themes.csproj" />
     <ProjectReference Include="..\Themes\DPEMS.FirstTheme\DPEMS.FirstTheme.csproj" />
   </ItemGroup>
 
