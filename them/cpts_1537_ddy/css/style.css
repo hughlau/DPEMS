@@ -63,7 +63,7 @@ p {
 	padding-bottom: 0.5rem;
 }
 .w3_agile_logo{
-	padding: 4em 0 0;
+	padding: 1rem 0 1rem;
 }
 .w3_agile_logo h1 a{
 	font-size: 1.5em;
@@ -78,7 +78,7 @@ p {
 /*-- banner --*/
 .banner_text_w3layouts {
     text-align: center;
-    padding: 16.5em 0;
+    padding: 10.0rem 0;
 }
 .banner_text_w3layouts h3 {
 	color: #fff;
@@ -469,7 +469,8 @@ span.menu {
 	background: url(../images/7.jpg) center;
 }
 .img_text_w3ls {
-    padding: 9.15em 0;
+	padding: 3.15em 0;
+	height: 30rem;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
@@ -506,16 +507,27 @@ span.menu {
 	-o-transition: 0.5s all;
 	-ms-transition: 0.5s all;
 }
+.img-grid{
+	height: 30rem;
+}
 .img-grid:hover .img_text_w3ls span {
     width: 50%;
 }
 .img_text_w3ls p {
+	text-indent:2rem;
+	text-align: left;
 	color: #fff;
 	font-size: 1.3em;
 	margin: 0.5em;
 	letter-spacing: 2px;
 	text-transform: capitalize;
 	font-weight: 400;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display:-webkit-box; 
+	-webkit-box-orient:vertical; 
+	-webkit-line-clamp:6;
+
 }
 .img-grid:hover .img_text_w3ls {
     background: rgba(43, 91, 162, 0.2);
@@ -532,6 +544,14 @@ h3.title {
     color: #fff;
 	padding: 0 0 1em;
 	line-height:1
+}
+div.more {
+    font-size: 2rem;
+    text-transform: capitalize;
+	font-weight: 600;
+	padding: 1rem 0 1rem;
+	line-height:1;
+	text-align: right;
 }
 .about_agileinfo h3 ,.team h3{
 	color:#000;
