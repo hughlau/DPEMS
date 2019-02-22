@@ -1,8 +1,0 @@
-Default:
-  RequestUrlHost: &42671683 ~
-  RequestUrlPrefix: ~
-  DatabaseProvider: SqlConnection
-  TablePrefix: ~
-  ConnectionString: Data Source =localhost;Initial Catalog = DPEMS;User Id = sa;Password = 123qwe;
-  State: Running
-...
