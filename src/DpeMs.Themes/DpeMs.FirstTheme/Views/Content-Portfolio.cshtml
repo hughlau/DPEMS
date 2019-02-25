@@ -14,11 +14,11 @@
     {
     <header>
         <span>hello</span>
-        @await DisplayAsync(Model.Header)
+        @Model.Header
         @if (Model.Meta != null)
         {
             <div class="metadata">
-                @await DisplayAsync(Model.Meta)
+                @Model.Meta
             </div>
         }
     </header>
