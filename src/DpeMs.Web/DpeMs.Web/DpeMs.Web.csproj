@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\DpeMs.Themes\DpeMs.FirstTheme\DpeMs.FirstTheme.csproj" />
+    <ProjectReference Include="..\..\DpeMs.Themes\DpeMs.UniTheme\DpeMs.UniTheme.csproj" />
   </ItemGroup>
 
 </Project>

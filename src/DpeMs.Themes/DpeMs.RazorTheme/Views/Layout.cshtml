@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
-<html lang="@Orchard.CultureName()">
+<html lang="@System.Globalization.CultureInfo.CurrentCulture.Name">
 <head>
-    <title>@RenderTitleSegments(Site.SiteName, "before")</title>
+    <title>@RenderTitleSegments("大胖鹅", "before")</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -23,10 +23,10 @@
 
     @await RenderSectionAsync("Header", required: false)
 </head>
-<body class="preload" dir="@Orchard.CultureDir()">
+<body class="preload" dir="@(System.Globalization.CultureInfo.CurrentUICulture.TextInfo.IsRightToLeft ? "rtl" : "")">
     <div class="ta-wrapper">
         <div class="ta-navbar-top">
-            <a class="ta-navbar-brand" href="@Url.Content("~/")"><span>@Site.SiteName</span></a>
+            <a class="ta-navbar-brand" href="@Url.Content("~/")"><span>大胖鹅</span></a>
             <div class="collapse navbar-collapse" id="navbar-links">
                 <div class="mr-auto">
                     @await RenderSectionAsync("NavbarTop", required: false)
