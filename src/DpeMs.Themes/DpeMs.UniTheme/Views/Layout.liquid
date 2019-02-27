@@ -1,29 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zn">
 
 <head>
-    <title>Home</title>
+    <title>{{ Site.SiteName }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="keywords" content="" />
+    {% resources type: "Meta" %}
     <script type="application/x-javascript">
         addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
                function hideURLbar(){ window.scrollTo(0,1); } </script>
     <script type="text/javascript" src="../DpeMs.UniTheme/js/jquery-1.11.1.min.js"></script>
     <link href="../DpeMs.UniTheme/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
     <link href="../DpeMs.UniTheme/css/style.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="http://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
-    <link href="http://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
-    <link href="http://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
     <link href="../DpeMs.UniTheme/css/font-awesome.css" type="text/css" rel="stylesheet">
     <style>
     </style>
 </head>
 
-<body>
+<body dir="{{ Culture.Dir }}">
     <div class="agileits_main">
         <div class="w3_agile_logo">
-            <h1 class="text-center"><a href="index.html">大胖鹅</a></h1>
+            <h1 class="text-center"><a href="index.html">{{ Site.SiteName }}</a></h1>
         </div>
         <nav class="navbar navbar-inverse ">
             <div>
@@ -33,13 +33,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <div class="collapse navbar-collapse top-nav w3l" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav linkEffects linkHoverEffect_11 custom-menu">
-                        <li><a href="#about" class="scroll"><span>新游</span></a></li>
-                        <li><a href="#gallery" class="scroll"><span>经验 </span></a></li>
-
-                    </ul>
-                </div>
+				{% shape "menu", alias: "alias:main-menu", cache_id: "main-menu", cache_fixed_duration: "00:05:00", cache_tag: "alias:main-menu" %}
             </div>
         </nav>
         <div class="w3_banner">
@@ -70,7 +64,7 @@
                             </li>
                         </ul>
                     </div>
-                    <script src="js/responsiveslides.min.js"></script>
+                    <script src="../DpeMs.UniTheme/js/responsiveslides.min.js"></script>
                     <script>
 						$(function () {
 							$("#slider4").responsiveSlides({
@@ -244,7 +238,7 @@
 			});
 		});
     </script>
-    <script src="js/SmoothScroll.min.js"></script>
+    <script src="../DpeMs.UniTheme/js/SmoothScroll.min.js"></script>
     <script type="text/javascript">
 		$(document).ready(function () {
 			/*
