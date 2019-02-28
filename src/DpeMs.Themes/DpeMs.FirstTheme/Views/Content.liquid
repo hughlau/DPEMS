@@ -1,7 +1,7 @@
 {% zone "Header" %}
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="masthead" style="background-image: url('{{ "../DpeMs.FirstTheme/img/post-bg.jpg" | href }}')">
+    <header class="masthead" style="background-image: url('{{ "../DpeMs.UniTheme/img/post-bg.jpg" | href }}')">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
@@ -15,4 +15,10 @@
     </header>
 {% endzone %}
 
-{{ Model.Content | shape_render }}
+<div class="container" style="margin-top:2.0rem;margin-bottom:3.0rem;">
+    <div class="row">
+        <div class="col-lg-12 col-md-10 mx-auto">
+            {{ Model.Content | shape_render }}
+        </div>
+    </div>
+</div>
