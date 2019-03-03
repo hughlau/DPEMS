@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zn">
+<html lang="{{ Site.Culture }}">
 
 <head>
     <title>{{ Site.SiteName }}</title>
@@ -23,7 +23,7 @@
 <body dir="{{ Culture.Dir }}">
     <div class="agileits_main">
         <div class="w3_agile_logo">
-            <h1 class="text-center"><a href="index.html">{{ Site.SiteName }}</a></h1>
+            <h1 class="text-center"><a href="/">{{ Site.SiteName }}</a></h1>
         </div>
         <nav class="navbar navbar-inverse ">
             <div>
@@ -96,9 +96,11 @@
                         <h4>Eget Integer sit amet.</h4>
                         <span> </span>
                         <p>
+						{% raw %}
                             竟在目前的恐怖游戏中这种类型以及题材的恐怖游戏并不是很多，在目前的所有恐怖游戏中，或许大家都知道，大部分的恐怖游戏都是利用各种声音和jump
                             scare来吓人，而这款游戏虽然也有这个成分，但是呢这也只是前半部分而已，或许很多人都认为恐怖游戏就应该从头吓到尾，但是呢在这款游戏中却并不是这样，甚至恐怖元素并不是很多，有的只是一个悲伤的故事以及压抑的场景。
                             竟在目前的恐怖游戏中这种类型以及题材的恐怖游戏并不是很多，在目前的所有恐怖游戏中，或许大家都知道，大部分的恐怖游戏都是利用各种声音和jump至恐怖元素并不是很多有的只是一个悲伤的故事以， 恐怖游戏都是利用各种声音和jump至恐
+							{% endraw %}
                         </p>
                     </div>
                 </div>

@@ -311,7 +311,7 @@ p {
 	width: 100%;
 }
 .custom-menu li{
-	width: 50%;
+	width: 33%;
 }
 .custom-menu li a{
 	display: block;
@@ -1710,7 +1710,7 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 .item_info {
     border: 1px solid #ddd;
     padding: 0.5em 2em;
-    margin: 2.2em 0;
+    margin: 1.2em 0;
 }
 .item_info ul li i {
    color:#8a8a8a;
@@ -1745,7 +1745,7 @@ a.blog-read{
 	color: #001fcc;
     border: 2px solid #001fcc;
     font-size: 15px;
-    margin-top: 30px;
+    margin-top: 1.0rem;
     padding: 7px 15px;
     display: inline-block;
     transition: 0.5s all;

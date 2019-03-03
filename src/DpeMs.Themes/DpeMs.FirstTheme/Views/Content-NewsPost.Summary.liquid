@@ -1,17 +1,40 @@
-<div class="post-preview">
+<div class="blog1-w3ls">
+  <div class="col-md-4 blog-image-w3l">
     {% a display_for:Model.ContentItem %}
-        <h2 class="post-title">
-          {{ Model.ContentItem.Content.BlogPost.Title.Text }}
-        </h2>
-        <h3 class="post-subtitle">
-            {{ Model.ContentItem.Content.BlogPost.Title.Text }}
-        </h3>
-  {% enda %}
-  {{ 'news/1.jpg' | asset_url | resize_url: 100, 240 | img_tag }}
-  <p class="post-meta">
-        {% assign format = "MMMM dd, yyyy" | t %}
-        {% assign dateTime = "DateTime" | shape_new: utc: Model.ContentItem.CreatedUtc, format: format | shape_stringify %}
-        {{ "Posted by" | t }} <a href="#">{{ Model.ContentItem.Owner }}</a> {{ "on {0}" | t: dateTime | raw }}
-    </p>
+    {{ 'news/1.jpg' | asset_url | resize_url: 350, 200,Crop | img_tag }}
+    {% enda %}
+
+  </div>
+  <div class="col-md-8 blog-text-w3ls">
+    <a href="{{ Model.ContentItem | display_url }}">
+      <h4>{{ Model.ContentItem | display_text }}</h4>
+    </a>
+    <div class="item_info">
+      <ul>
+        <li>
+          <a href="#">
+            <i class="glyphicon glyphicon-user"></i>{{ Model.ContentItem.Owner }}
+          </a>
+        </li>
+        <li>
+          {% assign format = "yyyy-MM-dd" | t %}
+          {% assign dateTime = "DateTime" | shape_new: utc: Model.ContentItem.CreatedUtc, format: format | shape_stringify %}
+          <i class="glyphicon glyphicon-calendar"></i>{{dateTime | raw}}
+        </li>
+        <li>
+          <a href="#">
+            <i class="glyphicon glyphicon-comment"></i>20 Comments
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="glyphicon glyphicon-heart"></i>300 Likes
+          </a>
+        </li>
+      </ul>
+    </div>
+    <p>Aliquam suscipit neque massa, eu maximus feli</p>
+    <a href="{{ Model.ContentItem | display_url }}" class="blog-read">Read More</a>
+  </div>
+  <div class="clearfix"></div>
 </div>
-<hr />
