@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
 using OrchardCore.ResourceManagement;
+using OrchardCore.Liquid;
 
 namespace DpeMs.Web
 {
@@ -40,6 +41,9 @@ namespace DpeMs.Web
                 options.Password.RequiredLength = 6;
 
             });
+
+            services.AddLiquidFilter<OriginFilter>("origin");
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

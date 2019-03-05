@@ -1,7 +1,7 @@
 <div class="blog1-w3ls">
   <div class="col-md-4 blog-image-w3l">
     {% a display_for:Model.ContentItem %}
-    {{ 'news/1.jpg' | asset_url | resize_url: 350, 200,Crop | img_tag }}
+    {{ Model.ContentItem.Content.NewsPost.sumimage.Text | asset_url | resize_url: 350, 200,Crop | img_tag }}
     {% enda %}
 
   </div>
@@ -20,16 +20,6 @@
           {% assign format = "yyyy-MM-dd" | t %}
           {% assign dateTime = "DateTime" | shape_new: utc: Model.ContentItem.CreatedUtc, format: format | shape_stringify %}
           <i class="glyphicon glyphicon-calendar"></i>{{dateTime | raw}}
-        </li>
-        <li>
-          <a href="#">
-            <i class="glyphicon glyphicon-comment"></i>20 Comments
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <i class="glyphicon glyphicon-heart"></i>300 Likes
-          </a>
         </li>
       </ul>
     </div>
